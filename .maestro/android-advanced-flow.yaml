@@ -4,7 +4,8 @@ tags:
 ---
 - launchApp:
     clearState: true
-- runFlow: subflows/onboarding-android.yaml
+# - runFlow: subflows/onboarding-android.yaml
+- runFlow: wikipedia-android-advanced/run-test.yml
 - tapOn:
     id: "org.wikipedia:id/search_container"
 - runScript: scripts/getSearchQuery.js
